@@ -1,7 +1,7 @@
 ---
   AWSTemplateFormatVersion: "2010-09-09"
 
-  Description: "Creates a VPC with Managed NAT, similar to the VPC Wizard at https://console.aws.amazon.com/vpc/home#wizardFullpagePublicAndPrivate: (extended from VPC_with_PublicIPs_And_DNS.template sample)"
+  Description: "Creates a VPC with Managed NAT."
   Parameters:
     VPCName:
       Description: The name of the VPC being created.
@@ -298,6 +298,7 @@
                 - '-public-nacl'
 
 
+
     InboundHTTPPublicNetworkAclEntry:
       Type: "AWS::EC2::NetworkAclEntry"
       Properties:
@@ -321,7 +322,7 @@
         Protocol: "-1"
         RuleAction: "allow"
         Egress: "true"
-        CidrBlock: "172.16.0.0/24"
+        CidrBlock: "0.0.0.0/0"
         PortRange:
           From: "0"
           To: "65535"
