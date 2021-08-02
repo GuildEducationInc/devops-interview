@@ -8,7 +8,7 @@ This repo keeps the instructions for the DevOps interview challenge.
 * Please do not look at the events or preview in CloudFormation when updating.
 
 If at any point you get stuck, let's revisit these rules. Let us know why
-you want to look break them.
+you want to break them.
 
 ## Scenario
 
