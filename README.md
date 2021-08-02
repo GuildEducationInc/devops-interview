@@ -31,7 +31,7 @@ deploy this template. Once we deploy it, we'll make sure that the we can hit the
 For this interview we've created a Cloud9 environment that has access to the AWS CLI
 and has access to the code deployed. You can make the necessary changes through the
 AWS console, but we prefer you use the AWS CLI through the Cloud9 environment to
-update the `cfn-step2.yml` template.
+update the `cfn-step2.yml` template. Whatever you feel most comfortable with.
 
 The interviewer will give you the following information:
 1. AWS console sign-in url
