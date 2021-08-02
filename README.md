@@ -35,8 +35,8 @@ update the `cfn-step2.yml` template.
 
 The interviewer will give you the following information:
 1. AWS console sign-in url
-1. Username
-1. Password
+1. Username for console
+1. Password for console
 1. Name of Cloud9 environment
 1. Name of cloudformation stack created with `cfn-step1.yml`
 1. SSH key for `DevOps Interview Challenge`.
