@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+>
+> This project is deprecated and is read-only for historical context only.
+
 # DevOps Interview Challenge
 
 This repo keeps the instructions for the DevOps interview challenge.
